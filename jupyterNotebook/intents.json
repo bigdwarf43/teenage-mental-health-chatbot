@@ -1,0 +1,392 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hey there!"
+      ],
+      "responses": [
+        "Hello, how are you doing?",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+   
+    },
+{
+      "tag": "feeling",
+      "patterns": [
+       "i feel bad",
+       "i feel good"
+      ],
+      "responses": [
+        "You can talk about how you feel with me!"
+      ]
+    
+    },
+    {
+      "tag": "good",
+      "patterns": [
+       "good",
+       "i feel great",
+       "I am doing good",
+       "I am doing great"
+      ],
+      "responses": [
+        "Its great to know that you are feeling good, you can talk with me!"
+      ]
+    },
+        {
+      "tag": "bad",
+      "patterns": [
+       "bad",
+       "i feel bad",
+       "I am not doing great",
+       "I don't feel good",
+       "I am not feeling good",
+       "i feel depressed"
+       
+      ],
+      "responses": [
+        "It's ok, you can talk to me about how you feel"
+      ]
+    },
+    {
+      "tag": "mental illness",
+      "patterns": [
+        "What does it mean to have a mental illness?",
+        "Who does mental illness affect?",
+        "What causes mental illness?",
+        "What are some of the warning signs of mental illness?",
+        "I feel down",
+        "I am exhausted"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a personal thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias.",
+        "I understand that you are feeling down, It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background."
+        ],"context_set": ""
+      },
+      {
+        "tag": "treatment",
+        "patterns": [
+          "What treatment options are available?",
+          "If I become involved in treatment, what do I need to know?",
+          "Where can I learn about types of mental health treatment?"
+        ],
+        "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+        ]
+        },
+        {
+          "tag": "can I",
+          "patterns": [
+            "How can I get help paying for my medication?",
+            "Where can I go to find therapy",
+            "Where can I learn about types of mental health treatment?",
+            "Where can I go to find a support group?",
+            "Where can I go to find inpatient care?",
+            "Where can I go to find other local services?",
+            "Where can I learn more information about clinical trials?",
+            "Where can I learn more information about creating a Psychiatric Advance Directive?"
+          ],
+          "responses": [
+            "Some pharmaceutical companies offer prescription assistance programs to individuals and families with financial needs, while others offer special drug discount cards. These programs typically require a doctor's consent and proof of your financial status. They may also require that you have either no health insurance or no prescription drug benefit through your health insurance.\nIn addition, there are prescription programs you might qualify for. Visit Healthfinder.gov to learn more.",
+            "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in children's mental health). However, there are several different types of treatment and therapy that can help.",
+        "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team.",
+        "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional.",
+        "If you or someone you know is in crisis, inpatient care can help. Inpatient care can help people stabilize on new medications, adjust to new symptoms, or get the help they need.",
+        "There are likely plenty of resources that can be used to help you find mental health treatment in your community. These resources can help you find the right therapist, and enable you to better understand viable treatment options and the treatment process.",
+        "Sometimes, consumers of mental health services may consider participating in a research study when they have not experienced improvement despite having tried a variety of medications and treatments. Research studies (also known as clinical trials) may involve the use of new medications or new treatment approaches whose safety and effectiveness is being tested. While we support innovation in the field, consumers should be cautioned that there are risks associated with clinical trials â€“ make sure you're aware of them before you enroll.",
+        "Similar to a medical advance directive or a health care power of attorney, a psychiatric advance directive is a legal document completed in a time of wellness that provides instructions regarding treatment or services one wishes to have or not have during a mental health crisis, and may help influence his or her care."
+            ],"context_set": ""
+          },
+          
+    {
+      "tag": "cure",
+      "patterns": [
+        "Are there cures for mental health problems?",
+        "If I feel better after taking medication, does this mean I am cured and can stop taking it?"
+       
+      ],
+      "responses": [
+        "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help.",
+        "It is not uncommon for people to stop taking their medication when they feel their symptoms are under control. Others may choose to stop taking their medication because of its side effects, without realizing that most side effects can be effectively managed. While it may seem reasonable to stop taking the medication, the problem is that most often, the symptoms will return. If you or your child is taking medication, it is very important that you work together with your doctor before making decisions about any changes in your treatment.\nAnother problem with stopping medication, particularly for stopping it abruptly, is that you may develop withdrawal symptoms that can be very unpleasant. If you and your doctor feel a trial off your medicine is a good idea, it is necessary to slowly decrease the dosage of medications so that these symptoms don't occur.\nIt is important that your doctor and pharmacist work together to make sure your medications are working safely and effectively. You should talk with them about how you are doing and if there are side effects that make you unwilling to continue treatment. They will work with you to develop strategies for minimizing these side effects, or will create a plan for switching to a different treatment that will be a better fit."
+        ],"context_set": ""
+      },
+      {
+        "tag": "psychiatrist",
+        "patterns": [
+          "How can I see a psychiatrist?",
+          "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+         
+        ],
+        "responses": [
+          "A psychiatrist is a specialist doctor. In BC, you need to ask your doctor for a referral. If you don't see a regular family doctor, you can ask any doctor at a walk-in clinic for a referral. In some cases, you may be able to self-refer or make an appointment with a mental health program yourself, but that may not get you access to a psychiatrist. Contact your local mental health centre to see what's available in your area. You can search for mental health centres at www.gov.bc.ca/mentalhealth. If you need help finding your local mental health centre, call HealthlinkBC at 811 or visit www.healthlinkbc.ca and use the Find Health Service tool.",
+          "To find a family doctor (general physician), visit the College of Physicians and Surgeons of BC to use their Find a Physician tool. You can also see a family doctor at a local walk-in clinic, though it's helpful to find a regular doctor if you have ongoing care needs. You can also find a psychiatrist through the College of Physicians and Surgeons of BC. Be aware that you almost always need a doctor's referral to see a psychiatrist. You can find a registered psychologist through the BC Psychological Association and the College of Psychologists of BC. To find a clinical counsellor, visit the BC Association of Clinical Counsellors.For more on the differences between these service providers, see the article The Right Path for You: Finding your way to and through services in BC from the Finding the Right Help â€“ Navigating the System issue of Visions Journal."
+          ],"context_set": ""
+        },
+
+        {
+          "tag": "psychologist",
+          "patterns": [
+            "How can I see a psychologist?",
+            "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+           
+          ],
+          "responses": [
+            "To find a Registered Psychologist, visit the BC Psychological Association. You can make an appointment on your own. You don't need a doctor's referral to see a psychologist. Registered Psychologists are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits or Employee (Family) Assistance Programs may cover some costs. Some psychologists offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. If you want to learn more about lower-cost options to access counselling (though not usually by Registered Psychologists), email us with your location and our information and referrals team can see what options there may be in your community.If you see a Registered Psychologist through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more.",
+            "To find a family doctor (general physician), visit the College of Physicians and Surgeons of BC to use their Find a Physician tool. You can also see a family doctor at a local walk-in clinic, though it's helpful to find a regular doctor if you have ongoing care needs. You can also find a psychiatrist through the College of Physicians and Surgeons of BC. Be aware that you almost always need a doctor's referral to see a psychiatrist. You can find a registered psychologist through the BC Psychological Association and the College of Psychologists of BC. To find a clinical counsellor, visit the BC Association of Clinical Counsellors.For more on the differences between these service providers, see the article The Right Path for You: Finding your way to and through services in BC from the Finding the Right Help â€“ Navigating the System issue of Visions Journal."
+            ],"context_set": ""
+          },
+          {
+            "tag": "counsellor",
+            "patterns": [
+              "How can I see a psychiatrist?",
+              "How can I find a doctor, psychiatrist, psychologist, or counsellor?"
+             
+            ],
+            "responses": [
+              "You can find directories of counsellors through their professional organizations. Registered Clinical Counsellors: visit the BC Association of Clinical Counsellors Canadian Certified Counsellors: visit the Canadian Counselling and Psychotherapy Association Canadian Professional Counsellors: visit the Canadian Professional Counsellors Association For more specialized counselling professionals, such as Marriage and Family Therapists, see the Federation of Associations for Counselling Therapists in British Columbia. You can make an appointment on your own. You don't need a doctor's referral to see a counsellor. Counsellors are not usually covered by MSP, so you'll have to pay for the cost of the appointment yourself. Workplace extended health benefits, Employee (Family) Assistance Programs, or private health insurance plans may help cover some costs. Some counsellors may offer a sliding scale based on your income. If you're facing financial hardship, you can ask when you make the appointment. Learn more about lower-cost options to access counselling or email us with your location and our information and referrals team can see what options there may be in your community. If you see a counsellor through a public mental health centre like a mental health team or outpatient psychiatry program, it will still be covered by MSP. Talk to your care provider if you have questions or want to learn more. Indigenous community members can access some counselling services locally or through the First Nations Health Authority. Contact your local Band or local Friendship Centre, or contact the First Nations Health Authority."
+              ],
+              "context_set": ""
+            },
+
+
+            {
+              "tag": "lonely",
+              "patterns": [
+                "What if I feel lonely?",
+                "How can I maintain social connections? ",
+            "I am alone and have nobody to share things with",
+            "i feel lonely"
+               
+              ],
+              "responses": [
+            
+            "Everyone feels lonely at times maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media.",
+         
+         
+            " Social connections are an opportunity to seek and share support, talk through difficult feelings, share a laugh, keep up-to-date with loved ones, and help each other cope. This pandemic is a lot for one person to deal with on their own. While measures like physical distancing and self-isolation are necessary to slow the spread of the virus, the physical separation can amplify a lot of challenging emotions like loneliness and fear. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone.",
+            "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. While you may be physically separated from friends, family members, and other loved ones, it has never been more important to maintain those social connections.Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+         
+         
+                ]
+              },
+
+          {
+            "tag": "goodbye",
+            "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye"
+            ],
+            "responses": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+          {
+            "tag": "thanks",
+            "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful"
+            ],
+            "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+            ]
+          },
+          {
+"tag": "mood",
+"patterns": [
+"I feel sad",
+"I am feeling down",
+"I'm not feeling well",
+"I feel hopeless",
+"I feel depressed"
+],
+"responses": [
+"I'm sorry to hear that. Can you tell me more about what's going on?",
+"It can be tough to feel sad. Would you like to talk about what's been bothering you?",
+"It sounds like you're having a tough time. Can you tell me more so I can better understand?"
+]
+},
+
+{
+"tag": "coping",
+"patterns": [
+"I don't know how to cope",
+"I need help managing my emotions",
+"I'm feeling overwhelmed",
+"I don't know how to relax",
+"I need to find ways to cope"
+],
+"responses": [
+"There are many ways to cope with difficult emotions. Some things that have worked for others include mindfulness and deep breathing exercises, journaling, and physical activity. Would you like to try any of these?",
+"It's important to have coping strategies in place for tough times. Have you tried therapy or counseling before?",
+"Coping can be difficult, but there are many strategies that can be effective. Some people find that talking to a friend or loved one can be helpful, while others prefer more structured methods like therapy or counseling."
+]
+},
+
+{
+"tag": "anxiety",
+"patterns": [
+"I'm feeling anxious",
+"I have anxiety",
+"I can't control my anxiety",
+"I'm struggling with anxiety",
+"I have panic attacks",
+"I'm feeling anxious all the time",
+"I can't stop worrying",
+"I'm constantly on edge",
+"I'm having panic attacks",
+"I'm afraid of things that never used to bother me"
+],
+"responses": [
+"Anxiety is a very common issue, and there are many strategies that can be helpful. Some people find that therapy or counseling can be helpful in managing their anxiety, while others prefer methods like mindfulness and deep breathing exercises.",
+"It sounds like you're going through a tough time with anxiety. Would you like to talk about what's been causing you to feel anxious?",
+"Anxiety can be overwhelming, but there is help available. Have you considered trying therapy or counseling to manage your symptoms?",
+"Anxiety is a common experience, especially during the teenage years when so many changes are happening. It's important to remember that there is help and support available.",
+"There are many techniques that can help with anxiety, including deep breathing exercises, mindfulness meditation, and physical activity. It can also be helpful to talk to a trusted friend or counselor about your worries.",
+"It's important to take care of yourself and do things that make you feel calm and relaxed. This might include activities like yoga, reading, or spending time in nature."
+]
+},
+{
+  "tag": "peer pressure",
+  "patterns": [
+  "I'm feeling pressured by my friends",
+  "I don't want to do what my friends are doing",
+  "I'm afraid of losing my friends",
+  "I don't want to disappoint my friends",
+  "I'm feeling caught between what I want and what my friends want"
+  ],
+  "responses": [
+  "Peer pressure can be a very difficult thing to navigate, especially during the teenage years. It's important to remember that you have the right to make decisions that are best for you, regardless of what your friends may want or expect.",
+  "It can be hard to stand up for yourself and make decisions that are different from your friends. But remember, true friends will support you and respect your choices, even if they're not the same as theirs.",
+  "Making decisions that align with your values and beliefs is important, even if it means going against the crowd. Consider talking to a trusted adult or counselor about how to handle these situations."
+  ]
+  },
+  
+  {
+  "tag": "self-esteem",
+  "patterns": [
+  "I don't like myself",
+  "I feel worthless",
+  "I'm not good enough",
+  "I feel like a failure",
+  "I'm constantly comparing myself to others",
+  "My friends don't like me",
+  "I'm not good enough",
+"I feel like a failure",
+"I'm always comparing myself to others",
+"I'm not happy with my appearance",
+"I don't feel confident"
+  ],
+  "responses": [
+  "Low self-esteem can be a difficult thing to deal with, but it's important to remember that everyone has strengths and weaknesses, and that's what makes us unique.",
+  "Comparing yourself to others is never a good idea, as everyone's journey is different. Try to focus on your own progress and growth, and celebrate your successes, no matter how small they may be.",
+  "It can be helpful to challenge negative self-talk by writing down your accomplishments and positive traits. You can also try talking to a trusted friend or counselor about how you're feeling."
+  ]
+  },
+  
+  {
+  "tag": "bullying",
+  "patterns": [
+  "I'm being bullied",
+  "I'm afraid to go to school",
+  "I'm constantly being teased",
+  "I don't feel safe at school",
+  "I'm being picked on by my classmates",
+  "i get bullied a lot by my friends"
+  ],
+  "responses": [
+  "Bullying is never okay, and it's important to get help and support as soon as possible. Have you considered talking to a trusted adult or counselor about what's going on?",
+  "It can be scary to speak out against bullying, but it's important to remember that you don't have to face this alone. Consider reaching out to a friend, family member, or teacher for support.",
+  "There are resources available to help with bullying, including hotlines and online support groups. It's important to take action and get the help you need to feel safe and supported."
+  ]
+  },
+    
+    {
+    "tag": "depression",
+    "patterns": [
+    "I'm feeling sad all the time",
+    "I have no energy or motivation",
+    "I'm not enjoying things that used to bring me joy",
+    "I'm sleeping too much or too little",
+    "I'm having thoughts of self-harm or suicide",
+    "I have no energy or motivation",
+"I have trouble sleeping",
+"I don't enjoy things I used to",
+"I'm thinking about death or suicide",
+"I feel ill"
+    ],
+    "responses": [
+    "If you're experiencing symptoms of depression, it's important to reach out for help as soon as possible. Talking to a trusted friend, family member, or counselor can be a good first step.",
+    "There are also many resources available for people who are struggling with depression, including hotlines, support groups, and therapy. It's important to take the first step and get the help you need.",
+    "It's important to take care of yourself and do things that bring you joy and comfort. This might include spending time with loved ones, engaging in creative activities, or doing something kind for someone else.",
+    "Depression is a serious issue that affects many people, and it's important to get help if you're feeling down or hopeless.",
+"Some common signs of depression include persistent sadness, loss of interest in activities you used to enjoy, changes in sleep and appetite, and feelings of worthlessness or guilt.",
+"If you're experiencing any of these symptoms, it's important to reach out to someone you trust, such as a friend, family member, or health professional. They can provide support and connect you with the resources you need to get help."
+    ]
+    },
+    
+    {
+    "tag": "relationships",
+    "patterns": [
+    "I'm having trouble with my friends",
+    "I don't know how to talk to my crush",
+    "I'm feeling left out",
+    "I'm worried about being rejected",
+    "I'm not sure how to make new friends",
+    "No one supports me"
+    ],
+    "responses": [
+    "Navigating relationships and social dynamics can be challenging, especially during the teenage years. It's important to remember that it's okay to ask for help and support when you need it.",
+    "There are many resources available to help with relationships, including books, articles, and online forums. You can also talk to a trusted friend, family member, or counselor about your concerns.",
+    "It's important to be true to yourself and make decisions that align with your values and beliefs. This might mean taking a break from a relationship that is not healthy or positive, or seeking out new friends who share your interests and values."
+    ]
+    },
+
+    {
+      "tag": "body image",
+      "patterns": [
+      "I don't like my body",
+      "I'm unhappy with my appearance",
+      "I'm always comparing myself to others",
+      "I'm worried about what others think of me",
+      "I'm considering changing my appearance through diet or surgery",
+      "I don't look good",
+      "I face is not good looking"
+      ],
+      "responses": [
+      "Body image is a complex and personal issue, and it's normal to have concerns about your appearance, especially during the teenage years when so many changes are happening.",
+      "Remember that everyone's body is different and there is no one 'right' way to look. It's important to focus on being healthy and taking care of your body, rather than trying to conform to unrealistic standards.",
+      "Building a positive body image takes time and effort, but there are many things you can do to help, such as engaging in physical activity, practicing self-care, and surrounding yourself with positive influences.",
+      "It can also be helpful to talk to someone you trust, such as a friend, family member, or counselor, about your feelings. They can provide support and perspective."
+      ]
+      },
+
+      {
+        "tag": "stress",
+        "patterns": [
+        "I feel overwhelmed",
+        "I'm having trouble sleeping",
+        "I'm always tired",
+        "I'm easily agitated",
+        "I'm having trouble concentrating"
+        ],
+        "responses": [
+        "Stress is a normal part of life, but it's important to manage it in a healthy way to avoid burnout and negative impacts on your mental and physical health.",
+        "There are many techniques you can use to reduce stress, such as deep breathing, exercise, and mindfulness. You can also try to identify the sources of stress in your life and find ways to manage them, such as delegating tasks or setting realistic expectations.",
+        "It's also important to take care of yourself by getting enough sleep, eating a balanced diet, and engaging in activities you enjoy. Talking to a trusted friend or counselor about your stress can also be helpful.",
+        "Remember that it's okay to ask for help and support when you're feeling overwhelmed. There are many resources available, such as hotlines, support groups, and therapy, to help you manage stress and build resilience."
+        ]
+        }
+          ]
+      }

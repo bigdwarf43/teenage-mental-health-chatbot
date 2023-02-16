@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\study\\sem5\\nlp\\contextBasedChatbot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\study\\sem5\\nlp\\contextBasedChatbot\\model.tflearn"
